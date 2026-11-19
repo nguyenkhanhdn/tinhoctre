@@ -23,3 +23,42 @@ main{height:100vh;min-height:0;overflow-y:auto;max-width:none}
 @media(max-width:700px){.layout{height:auto;min-height:100vh;overflow:visible}.layout aside{max-height:45vh;min-height:260px}.sidebar-problems{min-height:100px}main{height:auto;overflow:visible}.workspace{grid-template-columns:1fr}.workspace .editor-panel{min-height:400px}}
 
 .account-link{border:1px solid #cbd8e8;border-radius:24px;background:white;color:#1555a0;padding:9px 14px;font:inherit;font-size:13px;font-weight:700;max-width:48%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.account-link:hover{background:#eaf3ff}
+
+/* Application shell v2: top navigation + collapsible problem navigator */
+.app-shell{height:100vh;display:flex;flex-direction:column;overflow:hidden;background:#f4f7fc}
+.topbar{flex:none;min-height:70px;margin:0;padding:10px 22px;display:flex;align-items:center;gap:20px;background:#fff;border-bottom:1px solid #dce6f1;box-shadow:0 2px 12px #0c2b5010;z-index:3}
+.brand{display:flex;align-items:center;gap:10px;min-width:190px;color:#163a65}
+.brand-symbol{font-size:26px}
+.brand b{display:block;font-size:15px;letter-spacing:.5px}
+.brand small{display:block;font-size:11px;color:#66809f;margin-top:3px}
+.top-nav{display:flex;align-items:center;justify-content:center;gap:6px;flex:1;overflow-x:auto}
+.top-nav button{display:flex;align-items:center;gap:7px;white-space:nowrap;border:0;background:transparent;border-radius:10px;padding:12px 14px;color:#4d6583;font-weight:650;transition:background .2s,color .2s,transform .2s}
+.top-nav button:hover{background:#edf5ff;color:#1263bb;transform:translateY(-1px)}
+.top-nav button.nav-active{background:#e7f1ff;color:#0759ad}
+.topbar .account-link{display:flex;align-items:center;gap:8px;max-width:230px;flex:none}
+.topbar .account-link span{overflow:hidden;text-overflow:ellipsis}
+.app-body{flex:1;display:grid;grid-template-columns:300px minmax(0,1fr);min-height:0;transition:grid-template-columns .25s ease}
+.sidebar-collapsed .app-body{grid-template-columns:64px minmax(0,1fr)}
+.problem-sidebar{display:flex;flex-direction:column;min-height:0;overflow:hidden;background:#102747;color:#fff;padding:12px}
+.sidebar-head{display:flex;align-items:center;gap:12px;padding:4px 2px 14px}
+.sidebar-head strong{display:block;font-size:15px}
+.sidebar-head small{display:block;color:#adc9e9;font-size:11px;margin-top:3px}
+.collapse-button{display:grid;place-items:center;flex:none;width:38px;height:38px;border:1px solid #ffffff30;border-radius:10px;background:#ffffff15;color:#fff;transition:background .2s,transform .2s}
+.collapse-button:hover{background:#ffffff35;transform:scale(1.04)}
+.sidebar-tools{padding:0 0 12px}
+.search-wrap{display:flex;align-items:center;gap:7px;padding:0 11px;background:#fff;color:#5b779a;border-radius:9px}
+.search-wrap input{width:100%;height:39px;min-width:0;background:transparent;border:0;outline:none;color:#173454}
+.problem-sidebar .sidebar-filter{margin:9px 0 0}
+.problem-sidebar .sidebar-problems{flex:1;min-height:0;overflow-y:auto}
+.problem-sidebar .sidebar-problems button{position:relative;padding:11px 24px 11px 9px;transition:background .18s,transform .18s}
+.problem-sidebar .sidebar-problems button:hover{background:#ffffff20;transform:translateX(2px)}
+.problem-sidebar .sidebar-problems button.active{background:#2b5e96;border-left:3px solid #8fc7ff}
+.problem-index{color:#b9d4f2;font-variant-numeric:tabular-nums}
+.problem-chevron{position:absolute;right:6px;top:16px;opacity:.6}
+.problem-sidebar .hint{font-size:11px;line-height:1.5;margin:12px 0 0}
+.app-main{min-width:0;min-height:0;height:auto;overflow-y:auto;padding:22px;max-width:none}
+.app-main .workspace .statement-panel{max-height:calc(100vh - 120px)}
+.app-main .workspace .editor-panel{min-height:calc(100vh - 130px)}
+@media(max-width:1050px){.topbar{gap:10px;padding:8px 12px}.brand{min-width:140px}.top-nav button{padding:10px}.top-nav button span{display:none}.topbar .account-link{max-width:170px}.app-body{grid-template-columns:245px minmax(0,1fr)}}
+@media(max-width:700px){.app-shell{height:100dvh;overflow:hidden}.topbar{flex-wrap:wrap;gap:6px;min-height:0}.brand{min-width:0;flex:1}.topbar .account-link{max-width:160px}.top-nav{order:3;flex-basis:100%;justify-content:space-around}.top-nav button span{display:inline;font-size:11px}.app-body{grid-template-columns:180px minmax(0,1fr)}.sidebar-collapsed .app-body{grid-template-columns:54px minmax(0,1fr)}.problem-sidebar{padding:7px}.app-main{padding:10px}.app-main .workspace .statement-panel{max-height:none}.app-main .workspace .editor-panel{min-height:420px}.app-main .panel{padding:14px}.topbar .account-link{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.app-body,.top-nav button,.collapse-button,.problem-sidebar .sidebar-problems button{transition:none!important}}
