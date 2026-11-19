@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import newProblems from '../content/problems-bang-a.json';
 import controlFlowProblems from '../content/problems-control-flow.json';
+import advancedProblems from '../content/problems-advanced-topics.json';
 import './style.css';
 const old=[
 {id:'2022-KV-2',title:'Cạnh hình chữ nhật',topic:'Đề thi 2022',difficulty:'Dễ',statement:'Cho ba cạnh của hình chữ nhật. Tìm cạnh còn lại.',sampleInput:'3\n3\n4',sampleOutput:'4'},
@@ -8,7 +9,7 @@ const old=[
 {id:'2022-SK-2',title:'Phân số nhỏ nhất (đề 2022)',topic:'Đề thi 2022',difficulty:'Trung bình',statement:'Từ ba số A, B, C tạo phân số nhỏ nhất bằng cách chọn hai số. In tổng tử và mẫu sau tối giản.',sampleInput:'3\n2\n4',sampleOutput:'3'},
 {id:'2022-SK-4',title:'Thay đổi chữ số (đề 2022)',topic:'Đề thi 2022',difficulty:'Khó',statement:'Thay tối đa hai chữ số của N để được số nhỏ nhất chia hết cho 4 và không có chữ số 0 ở đầu.',sampleInput:'168',sampleOutput:'100'},
 {id:'2022-KV-4',title:'Đổi chỗ chữ số (đề 2022)',topic:'Đề thi 2022',difficulty:'Khó',statement:'Hoán vị chữ số để tạo số đối xứng nhỏ nhất, không có số 0 ở đầu; nếu không thể in 0.',sampleInput:'311',sampleOutput:'131'}];
-const problems=[...old,...newProblems,...controlFlowProblems];
+const problems=[...old,...newProblems,...controlFlowProblems,...advancedProblems];
 const KEY='tinhoctre-exams-demo-v1';
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}};
 const fmt=d=>new Date(d).toLocaleString('vi-VN');
