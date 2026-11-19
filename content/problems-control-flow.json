@@ -1,0 +1,470 @@
+[
+  {
+    "id": "IF01",
+    "title": "Kiểm tra năm nhuận",
+    "topic": "Rẽ nhánh if",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập năm Y. In YES nếu năm nhuận, ngược lại NO.",
+    "sampleInput": "2024",
+    "sampleOutput": "YES",
+    "tests": [
+      {
+        "input": "2024",
+        "output": "YES",
+        "visibility": "sample"
+      },
+      {
+        "input": "1900",
+        "output": "NO",
+        "visibility": "private"
+      },
+      {
+        "input": "2000",
+        "output": "YES",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "IF02",
+    "title": "Tam giác hợp lệ",
+    "topic": "Rẽ nhánh if",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập ba số nguyên dương a b c. In YES nếu là ba cạnh tam giác, ngược lại NO.",
+    "sampleInput": "3 4 5",
+    "sampleOutput": "YES",
+    "tests": [
+      {
+        "input": "3 4 5",
+        "output": "YES",
+        "visibility": "sample"
+      },
+      {
+        "input": "1 2 3",
+        "output": "NO",
+        "visibility": "private"
+      },
+      {
+        "input": "5 5 9",
+        "output": "YES",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "IF03",
+    "title": "Điểm nằm trong hình tròn",
+    "topic": "Rẽ nhánh if",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập x y r là các số nguyên, r >= 0. In INSIDE nếu x*x+y*y <= r*r, ngược lại OUTSIDE.",
+    "sampleInput": "3 4 5",
+    "sampleOutput": "INSIDE",
+    "tests": [
+      {
+        "input": "3 4 5",
+        "output": "INSIDE",
+        "visibility": "sample"
+      },
+      {
+        "input": "6 0 5",
+        "output": "OUTSIDE",
+        "visibility": "private"
+      },
+      {
+        "input": "0 0 0",
+        "output": "INSIDE",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "IF04",
+    "title": "Chữ số tăng dần",
+    "topic": "Rẽ nhánh if",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập số nguyên dương N dạng chuỗi có tối đa 100 chữ số. In YES nếu các chữ số tăng nghiêm ngặt từ trái sang phải, ngược lại NO.",
+    "sampleInput": "13579",
+    "sampleOutput": "YES",
+    "tests": [
+      {
+        "input": "13579",
+        "output": "YES",
+        "visibility": "sample"
+      },
+      {
+        "input": "112",
+        "output": "NO",
+        "visibility": "private"
+      },
+      {
+        "input": "987",
+        "output": "NO",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "ELIF01",
+    "title": "Xếp loại học lực",
+    "topic": "Rẽ nhánh if-elif",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập điểm nguyên D từ 0 đến 100. In A nếu D>=85, B nếu D>=70, C nếu D>=50, còn lại D.",
+    "sampleInput": "78",
+    "sampleOutput": "B",
+    "tests": [
+      {
+        "input": "78",
+        "output": "B",
+        "visibility": "sample"
+      },
+      {
+        "input": "85",
+        "output": "A",
+        "visibility": "private"
+      },
+      {
+        "input": "49",
+        "output": "D",
+        "visibility": "private"
+      },
+      {
+        "input": "50",
+        "output": "C",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "ELIF02",
+    "title": "Giá vé bảo tàng",
+    "topic": "Rẽ nhánh if-elif",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập tuổi T. Dưới 6 tuổi miễn phí; 6-15 tuổi 20000; 16-59 tuổi 50000; từ 60 tuổi 25000. In giá vé.",
+    "sampleInput": "60",
+    "sampleOutput": "25000",
+    "tests": [
+      {
+        "input": "60",
+        "output": "25000",
+        "visibility": "sample"
+      },
+      {
+        "input": "5",
+        "output": "0",
+        "visibility": "private"
+      },
+      {
+        "input": "15",
+        "output": "20000",
+        "visibility": "private"
+      },
+      {
+        "input": "16",
+        "output": "50000",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "ELIF03",
+    "title": "Phân loại tam giác",
+    "topic": "Rẽ nhánh if-elif",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập ba cạnh nguyên dương a b c. In INVALID nếu không tạo tam giác, EQUILATERAL nếu đều, ISOSCELES nếu cân, RIGHT nếu vuông, còn lại SCALENE. Ưu tiên ISOSCELES trước RIGHT.",
+    "sampleInput": "3 4 5",
+    "sampleOutput": "RIGHT",
+    "tests": [
+      {
+        "input": "3 4 5",
+        "output": "RIGHT",
+        "visibility": "sample"
+      },
+      {
+        "input": "2 2 2",
+        "output": "EQUILATERAL",
+        "visibility": "private"
+      },
+      {
+        "input": "2 2 3",
+        "output": "ISOSCELES",
+        "visibility": "private"
+      },
+      {
+        "input": "1 2 3",
+        "output": "INVALID",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "ELIF04",
+    "title": "Tính tiền điện bậc thang",
+    "topic": "Rẽ nhánh if-elif",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập N kWh nguyên không âm. 50 kWh đầu 1800đ/kWh; từ 51 đến 100 giá 2000đ/kWh; trên 100 giá 2500đ/kWh. In tổng tiền.",
+    "sampleInput": "120",
+    "sampleOutput": "240000",
+    "tests": [
+      {
+        "input": "120",
+        "output": "240000",
+        "visibility": "sample"
+      },
+      {
+        "input": "50",
+        "output": "90000",
+        "visibility": "private"
+      },
+      {
+        "input": "100",
+        "output": "190000",
+        "visibility": "private"
+      },
+      {
+        "input": "101",
+        "output": "192500",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "FOR01",
+    "title": "Tổng bình phương",
+    "topic": "Vòng lặp for",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập N (1<=N<=100000). Tính 1²+2²+...+N².",
+    "sampleInput": "3",
+    "sampleOutput": "14",
+    "tests": [
+      {
+        "input": "3",
+        "output": "14",
+        "visibility": "sample"
+      },
+      {
+        "input": "1",
+        "output": "1",
+        "visibility": "private"
+      },
+      {
+        "input": "4",
+        "output": "30",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "FOR02",
+    "title": "Đếm ước số",
+    "topic": "Vòng lặp for",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập N (1<=N<=1000000). In số lượng ước nguyên dương của N.",
+    "sampleInput": "12",
+    "sampleOutput": "6",
+    "tests": [
+      {
+        "input": "12",
+        "output": "6",
+        "visibility": "sample"
+      },
+      {
+        "input": "1",
+        "output": "1",
+        "visibility": "private"
+      },
+      {
+        "input": "36",
+        "output": "9",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "FOR03",
+    "title": "Số nguyên tố trong đoạn",
+    "topic": "Vòng lặp for",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập L R (1<=L<=R<=100000). In số lượng số nguyên tố trong đoạn [L,R].",
+    "sampleInput": "1 10",
+    "sampleOutput": "4",
+    "tests": [
+      {
+        "input": "1 10",
+        "output": "4",
+        "visibility": "sample"
+      },
+      {
+        "input": "10 10",
+        "output": "0",
+        "visibility": "private"
+      },
+      {
+        "input": "11 13",
+        "output": "2",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "FOR04",
+    "title": "Đoạn tăng dài nhất",
+    "topic": "Vòng lặp for",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Dòng đầu N (1<=N<=100000), dòng tiếp N số nguyên. In độ dài đoạn liên tiếp tăng nghiêm ngặt dài nhất.",
+    "sampleInput": "7\\n1 2 5 3 4 6 2",
+    "sampleOutput": "3",
+    "tests": [
+      {
+        "input": "7\\n1 2 5 3 4 6 2",
+        "output": "3",
+        "visibility": "sample"
+      },
+      {
+        "input": "5\\n5 4 3 2 1",
+        "output": "1",
+        "visibility": "private"
+      },
+      {
+        "input": "4\\n1 2 3 4",
+        "output": "4",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "WHILE01",
+    "title": "Đếm chữ số",
+    "topic": "Vòng lặp while",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập số nguyên không âm N (N<=10^18). In số chữ số thập phân của N.",
+    "sampleInput": "12050",
+    "sampleOutput": "5",
+    "tests": [
+      {
+        "input": "12050",
+        "output": "5",
+        "visibility": "sample"
+      },
+      {
+        "input": "0",
+        "output": "1",
+        "visibility": "private"
+      },
+      {
+        "input": "9",
+        "output": "1",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "WHILE02",
+    "title": "Ước chung lớn nhất",
+    "topic": "Vòng lặp while",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập hai số nguyên dương A B (<=10^18). In UCLN(A,B).",
+    "sampleInput": "48 18",
+    "sampleOutput": "6",
+    "tests": [
+      {
+        "input": "48 18",
+        "output": "6",
+        "visibility": "sample"
+      },
+      {
+        "input": "7 13",
+        "output": "1",
+        "visibility": "private"
+      },
+      {
+        "input": "100 25",
+        "output": "25",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "WHILE03",
+    "title": "Bước biến đổi Collatz",
+    "topic": "Vòng lặp while",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập N (1<=N<=100000). Khi N chẵn chia 2, khi lẻ thay N=3*N+1. Đếm số bước để về 1.",
+    "sampleInput": "6",
+    "sampleOutput": "8",
+    "tests": [
+      {
+        "input": "6",
+        "output": "8",
+        "visibility": "sample"
+      },
+      {
+        "input": "1",
+        "output": "0",
+        "visibility": "private"
+      },
+      {
+        "input": "2",
+        "output": "1",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "WHILE04",
+    "title": "Tìm số đầu tiên vượt ngưỡng",
+    "topic": "Vòng lặp while",
+    "difficulty": "Khó",
+    "language": "python",
+    "source": "Bài tự biên soạn",
+    "statement": "Nhập X (1<=X<=10^12). Tìm số nguyên dương k nhỏ nhất sao cho 1+2+...+k > X.",
+    "sampleInput": "10",
+    "sampleOutput": "5",
+    "tests": [
+      {
+        "input": "10",
+        "output": "5",
+        "visibility": "sample"
+      },
+      {
+        "input": "1",
+        "output": "2",
+        "visibility": "private"
+      },
+      {
+        "input": "3",
+        "output": "3",
+        "visibility": "private"
+      }
+    ]
+  }
+]
