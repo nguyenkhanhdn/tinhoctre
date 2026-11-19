@@ -1,0 +1,202 @@
+[
+  {
+    "id": "CT1-01",
+    "code": "HOCA",
+    "title": "Hồ cá sấu",
+    "topic": "Số học và hình học",
+    "difficulty": "Dễ",
+    "statement": "Một hồ hình vuông có cạnh A, ở giữa là đảo hình chữ nhật kích thước B × C không chạm bờ. Tính diện tích mặt nước còn lại. Nhập A, B, C trên ba dòng; 0 < A,B,C < 10000, A > B, A > C. In một số nguyên.",
+    "sampleInput": "2022\n8\n5",
+    "sampleOutput": "4088444",
+    "tests": [
+      {
+        "input": "2022\n8\n5",
+        "output": "4088444",
+        "visibility": "sample"
+      },
+      {
+        "input": "310\n20\n14",
+        "output": "95820",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1",
+    "exam": 1,
+    "volume": 1
+  },
+  {
+    "id": "CT1-02",
+    "code": "TONGCS2",
+    "title": "Tổng chữ số",
+    "topic": "Vòng lặp và đếm",
+    "difficulty": "Trung bình",
+    "statement": "Cho X (1 ≤ X ≤ 36). Đếm số lượng số tự nhiên có đúng 4 chữ số mà tổng các chữ số bằng X. Nhập một số X, in số lượng tìm được.",
+    "sampleInput": "10",
+    "sampleOutput": "219",
+    "tests": [
+      {
+        "input": "10",
+        "output": "219",
+        "visibility": "sample"
+      },
+      {
+        "input": "2",
+        "output": "4",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1",
+    "exam": 1,
+    "volume": 1
+  },
+  {
+    "id": "CT1-03",
+    "code": "KTLT1",
+    "title": "Kí tự liên tiếp",
+    "topic": "Chuỗi và xử lý ký tự",
+    "difficulty": "Khó",
+    "statement": "Một xâu nén gồm các cặp liên tiếp: một chữ số từ 0 đến 9 và một chữ cái thường a–z. Ví dụ 3a5b3c4c4a biểu diễn aaabbbbbcccccccaaaa. Tìm độ dài đoạn liên tiếp dài nhất chỉ gồm cùng một ký tự trong xâu giải nén. Độ dài xâu nén không quá 100.",
+    "sampleInput": "3a5b3c4c4a",
+    "sampleOutput": "7",
+    "tests": [
+      {
+        "input": "3a5b3c4c4a",
+        "output": "7",
+        "visibility": "sample"
+      },
+      {
+        "input": "1a1b1c1s",
+        "output": "1",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1",
+    "exam": 1,
+    "volume": 1
+  },
+  {
+    "id": "CT1-04",
+    "code": "DTT",
+    "title": "Đèn trang trí",
+    "topic": "Số chính phương và hình học",
+    "difficulty": "Khó",
+    "statement": "Có N bóng đèn đánh số 1 đến N, ban đầu đều tắt. Tại thời điểm i (1 ≤ i ≤ N), mỗi bóng có số thứ tự chia hết cho i sẽ đổi trạng thái. Sau N thời điểm, hỏi trong đoạn từ L đến R có bao nhiêu bóng sáng. Nhập N, L, R trên ba dòng; 1 ≤ L < R ≤ N ≤ 10^15. In số bóng sáng.",
+    "sampleInput": "4\n1\n4",
+    "sampleOutput": "2",
+    "tests": [
+      {
+        "input": "4\n1\n4",
+        "output": "2",
+        "visibility": "sample"
+      },
+      {
+        "input": "10\n2\n9",
+        "output": "2",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1",
+    "exam": 1,
+    "volume": 1
+  },
+  {
+    "id": "CT2-01",
+    "code": "STICKER",
+    "title": "Chia Sticker",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Trung bình",
+    "statement": "Có n bạn, tổng x sticker. Mỗi bạn lấy k sticker trước, số còn lại chia đều: mỗi bạn nhận ít nhất z sticker, phần dư phát thêm mỗi bạn 1 chiếc cho đến hết. In z và số học sinh nhận ít hơn các bạn khác. Nhập n, x, k trên ba dòng; 1 ≤ n ≤ 10^6; 0 ≤ x ≤ 10^18; 0 ≤ k ≤ 100. Dữ liệu hợp lệ khi x ≥ n×k.",
+    "sampleInput": "3\n53\n1",
+    "sampleOutput": "16 1",
+    "tests": [
+      {
+        "input": "3\n53\n1",
+        "output": "16 1",
+        "visibility": "sample"
+      },
+      {
+        "input": "8\n90\n2",
+        "output": "9 6",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2",
+    "exam": 11,
+    "volume": 2
+  },
+  {
+    "id": "CT2-02",
+    "code": "DAONGUOC2",
+    "title": "Đảo ngược",
+    "topic": "Số học và xử lý chữ số",
+    "difficulty": "Trung bình",
+    "statement": "Cho số nguyên dương P (1 ≤ P ≤ 10^18). Đảo ngược thứ tự chữ số, đồng thời đổi chữ số 2 thành 5 và 5 thành 2; các chữ số khác giữ nguyên. Bỏ các chữ số 0 ở đầu kết quả. In số thu được.",
+    "sampleInput": "43",
+    "sampleOutput": "34",
+    "tests": [
+      {
+        "input": "43",
+        "output": "34",
+        "visibility": "sample"
+      },
+      {
+        "input": "250",
+        "output": "25",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2",
+    "exam": 11,
+    "volume": 2
+  },
+  {
+    "id": "CT2-03",
+    "code": "TUDAI",
+    "title": "Từ dài",
+    "topic": "Chuỗi và xử lý ký tự",
+    "difficulty": "Trung bình",
+    "statement": "Cho một dòng xâu dài không quá 255 ký tự gồm chữ cái, chữ số và dấu cách, chứa ít nhất một từ. Một từ là dãy ký tự liên tiếp không chứa dấu cách. In dòng 1 là độ dài lớn nhất, dòng 2 là từ tương ứng. Nếu nhiều từ có cùng độ dài lớn nhất, chọn từ xuất hiện sau cùng.",
+    "sampleInput": "Khanh Hoa que huong toi",
+    "sampleOutput": "5\nhuong",
+    "tests": [
+      {
+        "input": "Khanh Hoa que huong toi",
+        "output": "5\nhuong",
+        "visibility": "sample"
+      },
+      {
+        "input": "abc de xyz",
+        "output": "3\nxyz",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2",
+    "exam": 11,
+    "volume": 2
+  },
+  {
+    "id": "CT2-04",
+    "code": "XEPHANG",
+    "title": "Xếp hàng",
+    "topic": "Dãy số và thuật toán",
+    "difficulty": "Khó",
+    "statement": "N thí sinh mang số từ 1 đến N, khi lên sân khấu đứng theo thứ tự 2,1,4,3,6,5,... (nếu N lẻ, số cuối là N). Cho N, L, R trên ba dòng, 1 ≤ L ≤ R ≤ N ≤ 10^8. Tính tổng các số ở vị trí từ L đến R trong dãy. Cần thuật toán hiệu quả cho dữ liệu lớn.",
+    "sampleInput": "10\n1\n5",
+    "sampleOutput": "16",
+    "tests": [
+      {
+        "input": "10\n1\n5",
+        "output": "16",
+        "visibility": "sample"
+      },
+      {
+        "input": "10\n2\n4",
+        "output": "8",
+        "visibility": "sample"
+      }
+    ],
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2",
+    "exam": 11,
+    "volume": 2
+  }
+]
