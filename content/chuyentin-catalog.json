@@ -1,0 +1,802 @@
+[
+  {
+    "id": "CT1-01",
+    "code": "HOCA",
+    "title": "Hồ cá sấu",
+    "volume": 1,
+    "exam": 1,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-02",
+    "code": "TONGCS2",
+    "title": "Tổng chữ số",
+    "volume": 1,
+    "exam": 1,
+    "topic": "Số học và xử lý chữ số",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-03",
+    "code": "KTLT1",
+    "title": "Kí tự liên tiếp",
+    "volume": 1,
+    "exam": 1,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-04",
+    "code": "DTT",
+    "title": "Đèn trang trí",
+    "volume": 1,
+    "exam": 1,
+    "topic": "Số chính phương và hình học",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-05",
+    "code": "MAUO",
+    "title": "Màu ô",
+    "volume": 1,
+    "exam": 2,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-06",
+    "code": "TICHLE",
+    "title": "Tích lẻ lớn nhất",
+    "volume": 1,
+    "exam": 2,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-07",
+    "code": "INSEC",
+    "title": "Chi phiếu",
+    "volume": 1,
+    "exam": 2,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-08",
+    "code": "XOASO",
+    "title": "Xóa số",
+    "volume": 1,
+    "exam": 2,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-09",
+    "code": "SNC",
+    "title": "San nước cam",
+    "volume": 1,
+    "exam": 3,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-10",
+    "code": "HCX",
+    "title": "Hội chợ xuân",
+    "volume": 1,
+    "exam": 3,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-11",
+    "code": "HATCUOM",
+    "title": "Dãy hạt Cườm",
+    "volume": 1,
+    "exam": 3,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-12",
+    "code": "DAYSO2",
+    "title": "Dãy số",
+    "volume": 1,
+    "exam": 3,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-13",
+    "code": "CLOCK1",
+    "title": "Đồng hồ 1",
+    "volume": 1,
+    "exam": 4,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-14",
+    "code": "DTMAX",
+    "title": "Diện tích lớn nhất",
+    "volume": 1,
+    "exam": 4,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-15",
+    "code": "KTDX",
+    "title": "Cặp kí tự đối xứng",
+    "volume": 1,
+    "exam": 4,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-16",
+    "code": "SDTHV",
+    "title": "Diện tích hình vuông",
+    "volume": 1,
+    "exam": 4,
+    "topic": "Số chính phương và hình học",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-17",
+    "code": "BONGDEN",
+    "title": "Bóng đèn",
+    "volume": 1,
+    "exam": 5,
+    "topic": "Số chính phương và hình học",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-18",
+    "code": "GHEPHINH1",
+    "title": "Ghép hình chữ nhật",
+    "volume": 1,
+    "exam": 5,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-19",
+    "code": "TRUNG",
+    "title": "Xóa kí tự trùng",
+    "volume": 1,
+    "exam": 5,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-20",
+    "code": "N1DIGIT",
+    "title": "Số một số",
+    "volume": 1,
+    "exam": 5,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-21",
+    "code": "SOCAP",
+    "title": "Số cặp",
+    "volume": 1,
+    "exam": 6,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-22",
+    "code": "CHE",
+    "title": "Chơi cờ vua",
+    "volume": 1,
+    "exam": 6,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-23",
+    "code": "CHIAHET2",
+    "title": "Chia hết",
+    "volume": 1,
+    "exam": 6,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-24",
+    "code": "CATBIA",
+    "title": "Cắt bìa",
+    "volume": 1,
+    "exam": 6,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-25",
+    "code": "TRONGHOA",
+    "title": "Trồng hoa",
+    "volume": 1,
+    "exam": 7,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-26",
+    "code": "SOTONG",
+    "title": "Số tổng",
+    "volume": 1,
+    "exam": 7,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-27",
+    "code": "XQDI",
+    "title": "Xếp que diêm",
+    "volume": 1,
+    "exam": 7,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-28",
+    "code": "CHUOILT",
+    "title": "Chuỗi liên tục",
+    "volume": 1,
+    "exam": 7,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-29",
+    "code": "HOCA1",
+    "title": "Hồ cá vàng",
+    "volume": 1,
+    "exam": 8,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-30",
+    "code": "TONGLE2",
+    "title": "Tổng các số lẻ",
+    "volume": 1,
+    "exam": 8,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-31",
+    "code": "SPIRAL",
+    "title": "Bảng xoắn ốc",
+    "volume": 1,
+    "exam": 8,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-32",
+    "code": "DSKT",
+    "title": "Đếm số kí tự",
+    "volume": 1,
+    "exam": 8,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-33",
+    "code": "EGGS",
+    "title": "Đếm trứng",
+    "volume": 1,
+    "exam": 9,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-34",
+    "code": "LUYTHUA1_S",
+    "title": "Lũy thừa",
+    "volume": 1,
+    "exam": 9,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-35",
+    "code": "TONG",
+    "title": "Tổng từ 1 đến n",
+    "volume": 1,
+    "exam": 9,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-36",
+    "code": "TONGBANG",
+    "title": "Tổng bảng",
+    "volume": 1,
+    "exam": 9,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-37",
+    "code": "CAUTHANG",
+    "title": "Cầu thang",
+    "volume": 1,
+    "exam": 10,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-38",
+    "code": "SQUARES2",
+    "title": "Đếm hình vuông",
+    "volume": 1,
+    "exam": 10,
+    "topic": "Số chính phương và hình học",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-39",
+    "code": "TRONGSO",
+    "title": "Trọng số",
+    "volume": 1,
+    "exam": 10,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT1-40",
+    "code": "TTDS",
+    "title": "Tính tổng dãy số",
+    "volume": 1,
+    "exam": 10,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 1"
+  },
+  {
+    "id": "CT2-01",
+    "code": "STICKER",
+    "title": "Chia Sticker",
+    "volume": 2,
+    "exam": 11,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-02",
+    "code": "DAONGUOC2",
+    "title": "Đảo ngược",
+    "volume": 2,
+    "exam": 11,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-03",
+    "code": "TUDAI",
+    "title": "Từ dài",
+    "volume": 2,
+    "exam": 11,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-04",
+    "code": "XEPHANG",
+    "title": "Xếp hàng",
+    "volume": 2,
+    "exam": 11,
+    "topic": "Dãy số và thuật toán",
+    "available": true,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-05",
+    "code": "CONGTRU",
+    "title": "Cộng hay trừ",
+    "volume": 2,
+    "exam": 12,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-06",
+    "code": "ATHORUA",
+    "title": "Vượt chướng ngại vật",
+    "volume": 2,
+    "exam": 12,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-07",
+    "code": "TONG3K",
+    "title": "Tổng 3K",
+    "volume": 2,
+    "exam": 12,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-08",
+    "code": "TGS1",
+    "title": "Tam giác số",
+    "volume": 2,
+    "exam": 12,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-09",
+    "code": "DMY",
+    "title": "Ngày tháng",
+    "volume": 2,
+    "exam": 13,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-10",
+    "code": "PCKN",
+    "title": "Phép cộng không nhớ",
+    "volume": 2,
+    "exam": 13,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-11",
+    "code": "TICHLT",
+    "title": "Tích liên tiếp",
+    "volume": 2,
+    "exam": 13,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-12",
+    "code": "SOX",
+    "title": "Số x",
+    "volume": 2,
+    "exam": 13,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-13",
+    "code": "SXBG",
+    "title": "Sắp xếp bàn ghế",
+    "volume": 2,
+    "exam": 14,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-14",
+    "code": "CPGN",
+    "title": "Số chính phương gần nhất",
+    "volume": 2,
+    "exam": 14,
+    "topic": "Số chính phương và hình học",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-15",
+    "code": "CHIAQUA1",
+    "title": "Chia quà",
+    "volume": 2,
+    "exam": 14,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-16",
+    "code": "PSN",
+    "title": "Phân số có giá trị tự nhiên",
+    "volume": 2,
+    "exam": 14,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-17",
+    "code": "CHIPHI",
+    "title": "Chi phí",
+    "volume": 2,
+    "exam": 15,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-18",
+    "code": "SODEP3",
+    "title": "Số đẹp 3",
+    "volume": 2,
+    "exam": 15,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-19",
+    "code": "TROCHOI",
+    "title": "Trò chơi",
+    "volume": 2,
+    "exam": 15,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-20",
+    "code": "C2D",
+    "title": "Chia 2 đoạn",
+    "volume": 2,
+    "exam": 15,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-21",
+    "code": "CHINHO",
+    "title": "Chia nhóm",
+    "volume": 2,
+    "exam": 16,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-22",
+    "code": "KC",
+    "title": "Khoảng cách",
+    "volume": 2,
+    "exam": 16,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-23",
+    "code": "COOR",
+    "title": "Tọa độ",
+    "volume": 2,
+    "exam": 16,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-24",
+    "code": "DASO",
+    "title": "Dãy số",
+    "volume": 2,
+    "exam": 16,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-25",
+    "code": "MUASACH",
+    "title": "Mua sách",
+    "volume": 2,
+    "exam": 17,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-26",
+    "code": "TDS",
+    "title": "Tổng dãy số",
+    "volume": 2,
+    "exam": 17,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-27",
+    "code": "OVUONG",
+    "title": "Ô vuông",
+    "volume": 2,
+    "exam": 17,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-28",
+    "code": "CHIAHET",
+    "title": "Chia hết",
+    "volume": 2,
+    "exam": 17,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-29",
+    "code": "CHIABANH",
+    "title": "Chia bánh",
+    "volume": 2,
+    "exam": 18,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-30",
+    "code": "PSNN",
+    "title": "Phân số nhỏ nhất",
+    "volume": 2,
+    "exam": 18,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-31",
+    "code": "GNSO",
+    "title": "Giải nén số",
+    "volume": 2,
+    "exam": 18,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-32",
+    "code": "XEPDIEM",
+    "title": "Xếp que diêm",
+    "volume": 2,
+    "exam": 18,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-33",
+    "code": "MAXA",
+    "title": "MaxA",
+    "volume": 2,
+    "exam": 19,
+    "topic": "Dãy số và thuật toán",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-34",
+    "code": "QUACAN",
+    "title": "Tìm quả cân",
+    "volume": 2,
+    "exam": 19,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-35",
+    "code": "DAIDIEN",
+    "title": "Từ đại diện",
+    "volume": 2,
+    "exam": 19,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-36",
+    "code": "PINBALL",
+    "title": "Trò chơi Pinball",
+    "volume": 2,
+    "exam": 19,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-37",
+    "code": "MASO1",
+    "title": "Mã số",
+    "volume": 2,
+    "exam": 20,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-38",
+    "code": "KTS",
+    "title": "Dãy kí tự số",
+    "volume": 2,
+    "exam": 20,
+    "topic": "Chuỗi và xử lý ký tự",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-39",
+    "code": "CHIATAO",
+    "title": "Chia táo",
+    "volume": 2,
+    "exam": 20,
+    "topic": "Bài toán thực tế và tư duy",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  },
+  {
+    "id": "CT2-40",
+    "code": "DEMCS1",
+    "title": "Đếm chữ số",
+    "volume": 2,
+    "exam": 20,
+    "topic": "Số học và xử lý chữ số",
+    "available": false,
+    "source": "chuyentin.pro · Bộ đề ôn Tin học trẻ Bảng A · Tập 2"
+  }
+]
