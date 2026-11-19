@@ -1,0 +1,13 @@
+import React,{useState} from 'react';
+const tasks=[
+{title:'Cạnh hình chữ nhật',level:'Dễ',statement:'Cho ba cạnh của một hình chữ nhật, hãy tìm độ dài cạnh còn lại.',input:'3\n3\n4',output:'4'},
+{title:'Tính tổng dãy số',level:'Trung bình',statement:'Cho N chẵn và dãy 1, N, 2, N-1, ... Hãy tính tổng M số đầu tiên.',input:'6\n3',output:'9'},
+{title:'Phân số nhỏ nhất',level:'Trung bình',statement:'Từ ba số tự nhiên A, B, C, chọn hai số làm tử và mẫu để phân số nhỏ nhất. In tổng tử và mẫu sau tối giản.',input:'3\n2\n4',output:'3'},
+{title:'Thay đổi chữ số',level:'Khó',statement:'Thay đổi tối đa hai chữ số của N để được số nhỏ nhất chia hết cho 4, không có số 0 đầu.',input:'168',output:'100'},
+{title:'Đổi chỗ chữ số',level:'Khó',statement:'Hoán đổi các chữ số của N để được số đối xứng nhỏ nhất, hoặc 0 nếu không thể.',input:'311',output:'131'}
+];
+export default function App(){
+const [selected,setSelected]=useState(0);const [code,setCode]=useState('n = int(input())\nprint(n)');const [notice,setNotice]=useState('');
+const task=tasks[selected];
+return <div className="layout"><aside><h2>🐍 TIN HỌC TRẺ</h2><p>Bảng A · Lập trình Python</p><h3>Ngân hàng bài</h3>{tasks.map((t,i)=><button key={i} className={selected===i?'active':''} onClick={()=>{setSelected(i);setNotice('')}}>{i+1}. {t.title}<small>{t.level}</small></button>)}<p className="hint">Đề tham khảo từ tài liệu Tin học trẻ 2022 do người dùng cung cấp.</p></aside><main><header><span>Không gian luyện tập</span><span className="status">Bản thử nghiệm</span></header><section className="panel"><div className="tag">Bài {selected+1} · {task.level}</div><h1>{task.title}</h1><p>{task.statement}</p><h3>Ví dụ</h3><div className="examples"><div><b>Input</b><pre>{task.input}</pre></div><div><b>Output</b><pre>{task.output}</pre></div></div></section><section className="panel"><div className="editor-head"><h3>Mã nguồn Python 3</h3><span>main.py</span></div><textarea spellCheck="false" aria-label="Mã nguồn Python" value={code} onChange={e=>setCode(e.target.value)}/><div className="actions"><button onClick={()=>setNotice('Chức năng chạy thử đang chờ kết nối môi trường Python an toàn.')}>▶ Chạy thử</button><button className="primary" onClick={()=>setNotice('Chưa kết nối hệ thống chấm tự động. Bài làm chưa được nộp hoặc chấm điểm.')}>Nộp bài</button></div>{notice&&<div className="notice" role="status">{notice}</div>}</section><footer>Hệ thống đang phát triển · Không thực thi mã Python trực tiếp trên Vercel</footer></main></div>
+}
