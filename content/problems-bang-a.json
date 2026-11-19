@@ -1,0 +1,337 @@
+[
+  {
+    "id": "1.1",
+    "title": "Mua vở khuyến mãi",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập N và P. Nếu N >= 10, giảm 10% tổng hóa đơn. In số tiền phải trả làm tròn xuống.",
+    "sampleInput": "12 5000",
+    "sampleOutput": "54000",
+    "tests": [
+      {
+        "input": "12 5000",
+        "output": "54000",
+        "visibility": "sample"
+      },
+      {
+        "input": "1 5000",
+        "output": "5000",
+        "visibility": "private"
+      },
+      {
+        "input": "10 5000",
+        "output": "45000",
+        "visibility": "private"
+      },
+      {
+        "input": "9 5000",
+        "output": "45000",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "1.2",
+    "title": "Đổi giây sang giờ phút giây",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Cho S từ 0 đến 86400. In giờ, phút, giây cách nhau bởi dấu cách.",
+    "sampleInput": "3665",
+    "sampleOutput": "1 1 5",
+    "tests": [
+      {
+        "input": "3665",
+        "output": "1 1 5",
+        "visibility": "sample"
+      },
+      {
+        "input": "0",
+        "output": "0 0 0",
+        "visibility": "private"
+      },
+      {
+        "input": "60",
+        "output": "0 1 0",
+        "visibility": "private"
+      },
+      {
+        "input": "86400",
+        "output": "24 0 0",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "1.3",
+    "title": "Chia kẹo công bằng",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập K và N (N > 0). In số kẹo mỗi bạn và số kẹo dư.",
+    "sampleInput": "25 4",
+    "sampleOutput": "6 1",
+    "tests": [
+      {
+        "input": "25 4",
+        "output": "6 1",
+        "visibility": "sample"
+      },
+      {
+        "input": "10 3",
+        "output": "3 1",
+        "visibility": "private"
+      },
+      {
+        "input": "8 4",
+        "output": "2 0",
+        "visibility": "private"
+      },
+      {
+        "input": "1 5",
+        "output": "0 1",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "1.4",
+    "title": "Tiền taxi",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập N km nguyên dương. Km đầu 15000, km 2-10 giá 12000 mỗi km, từ km 11 giá 10000 mỗi km. In tổng tiền.",
+    "sampleInput": "12",
+    "sampleOutput": "143000",
+    "tests": [
+      {
+        "input": "12",
+        "output": "143000",
+        "visibility": "sample"
+      },
+      {
+        "input": "1",
+        "output": "15000",
+        "visibility": "private"
+      },
+      {
+        "input": "2",
+        "output": "27000",
+        "visibility": "private"
+      },
+      {
+        "input": "10",
+        "output": "123000",
+        "visibility": "private"
+      },
+      {
+        "input": "11",
+        "output": "133000",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "1.5",
+    "title": "Số ở giữa",
+    "topic": "Số học và rẽ nhánh",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập ba số nguyên phân biệt. In số có giá trị nằm giữa.",
+    "sampleInput": "15 8 20",
+    "sampleOutput": "15",
+    "tests": [
+      {
+        "input": "15 8 20",
+        "output": "15",
+        "visibility": "sample"
+      },
+      {
+        "input": "1 2 3",
+        "output": "2",
+        "visibility": "private"
+      },
+      {
+        "input": "-5 -10 0",
+        "output": "-5",
+        "visibility": "private"
+      },
+      {
+        "input": "9 3 6",
+        "output": "6",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "2.1",
+    "title": "Số đối xứng",
+    "topic": "Xử lý chữ số và xâu",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập một số nguyên dương N. In CO nếu chuỗi chữ số đọc xuôi bằng đọc ngược, ngược lại in KHONG.",
+    "sampleInput": "12321",
+    "sampleOutput": "CO",
+    "tests": [
+      {
+        "input": "12321",
+        "output": "CO",
+        "visibility": "sample"
+      },
+      {
+        "input": "123",
+        "output": "KHONG",
+        "visibility": "private"
+      },
+      {
+        "input": "7",
+        "output": "CO",
+        "visibility": "private"
+      },
+      {
+        "input": "1001",
+        "output": "CO",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "2.2",
+    "title": "Chữ số lớn nhất và số lần xuất hiện",
+    "topic": "Xử lý chữ số và xâu",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập số nguyên dương N. In chữ số lớn nhất và số lần xuất hiện của nó.",
+    "sampleInput": "582818",
+    "sampleOutput": "8 3",
+    "tests": [
+      {
+        "input": "582818",
+        "output": "8 3",
+        "visibility": "sample"
+      },
+      {
+        "input": "999",
+        "output": "9 3",
+        "visibility": "private"
+      },
+      {
+        "input": "123",
+        "output": "3 1",
+        "visibility": "private"
+      },
+      {
+        "input": "10101",
+        "output": "1 3",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "2.3",
+    "title": "Tổng các chữ số chẵn",
+    "topic": "Xử lý chữ số và xâu",
+    "difficulty": "Dễ",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Nhập số nguyên dương N có tối đa 50 chữ số. In tổng các chữ số chẵn (bao gồm 0).",
+    "sampleInput": "123456",
+    "sampleOutput": "12",
+    "tests": [
+      {
+        "input": "123456",
+        "output": "12",
+        "visibility": "sample"
+      },
+      {
+        "input": "13579",
+        "output": "0",
+        "visibility": "private"
+      },
+      {
+        "input": "2468",
+        "output": "20",
+        "visibility": "private"
+      },
+      {
+        "input": "1002",
+        "output": "2",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "2.4",
+    "title": "Mật mã tổng chữ số",
+    "topic": "Xử lý chữ số và xâu",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Cộng các chữ số của N nhiều lần đến khi còn một chữ số. In chữ số đó.",
+    "sampleInput": "987",
+    "sampleOutput": "6",
+    "tests": [
+      {
+        "input": "987",
+        "output": "6",
+        "visibility": "sample"
+      },
+      {
+        "input": "9",
+        "output": "9",
+        "visibility": "private"
+      },
+      {
+        "input": "99",
+        "output": "9",
+        "visibility": "private"
+      },
+      {
+        "input": "12345",
+        "output": "6",
+        "visibility": "private"
+      }
+    ]
+  },
+  {
+    "id": "2.5",
+    "title": "Xóa chữ số để được số lớn nhất",
+    "topic": "Xử lý chữ số và xâu",
+    "difficulty": "Trung bình",
+    "language": "python",
+    "source": "Tự biên soạn từ yêu cầu người dùng",
+    "statement": "Cho N có đúng bốn chữ số. Xóa đúng một chữ số, giữ thứ tự ba chữ số còn lại và tìm giá trị số nguyên lớn nhất.",
+    "sampleInput": "5284",
+    "sampleOutput": "584",
+    "tests": [
+      {
+        "input": "5284",
+        "output": "584",
+        "visibility": "sample"
+      },
+      {
+        "input": "1234",
+        "output": "234",
+        "visibility": "private"
+      },
+      {
+        "input": "9999",
+        "output": "999",
+        "visibility": "private"
+      },
+      {
+        "input": "1000",
+        "output": "100",
+        "visibility": "private"
+      }
+    ]
+  }
+]
